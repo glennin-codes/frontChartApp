@@ -68,7 +68,7 @@ export default function Login() {
           <div className="brand">
             <img src={Logo} alt="logo" />
             <h1>LindaSpyro</h1>
-            <h4><i>a special dedication</i></h4>
+           
           </div>
           <input
             type="text"
