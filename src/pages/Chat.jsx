@@ -27,7 +27,7 @@ export default function Chat() {
   }, []);
   useEffect(() => {
     if (currentUser) {
-      socket.current = io(`ws:http://localhost:5001`);
+      socket.current = io(`ws:https://chartappsocketapi.onrender.com`);
       socket.current.emit("add-user", currentUser._id);
     }
   }, [currentUser]);
